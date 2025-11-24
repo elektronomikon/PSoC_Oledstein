@@ -1,0 +1,36 @@
+# .gitignore for psco creator projects, ignores build artifacts and user-specific files
+
+# user specific ide settings
+*.cywrk.*
+*.cyprj.*
+
+# auto generated source code folders, created during "Build" from your TopDesign
+*/Generated_Source/
+*/codegentemp/
+*/DP8051/
+*/ARM_GCC*/
+*/CortexM3/
+Debug/
+Release/
+Export/
+Backup/
+
+# build reports, logs, fitter files; these are all regenerated on each build
+*.rpt
+*.log
+*.cyfit
+*.cycdx
+*.svd
+*_timing.html
+*.bak
+
+# compilation and linker artifacts (refer to build log)
+*.o
+*.lst
+*.a
+*.elf
+*.hex
+*.map
+
+# device.h is the main header that includes all components
+*/device.h
