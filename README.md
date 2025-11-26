@@ -1,4 +1,4 @@
-# flappy_mike
+# Oledstein
 
 This project is simple Raycaster, implemented on the CY8CKIT-059 PSoC 5LP Prototyping Kit.
 
